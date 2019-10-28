@@ -571,14 +571,16 @@ input[type="password"],
 textarea,
 select {
   display: block;
-  height: 6rem;
-  padding: 1.5rem 2rem;
+  height: 4rem;
+  padding: 1.5rem 1rem;
   border: 0;
   outline: none;
   vertical-align: middle;
   color: #444444;
-  font-family: "montserrat-regular", sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.35rem;
   line-height: 3rem;
   max-width: 100%;
   background: rgba(0, 0, 0, 0.1);
@@ -1855,7 +1857,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 800px;
   }
   #about .lead {
-    font-size: 3.8rem;
+    font-size: 2.6rem;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -1863,7 +1865,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 720px;
   }
   #about .lead {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1874,7 +1876,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 600px;
   }
   #about .lead {
-    font-size: 3.1rem;
+    font-size: 2.3rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1894,7 +1896,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.5rem;
   }
   #about .lead {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1905,7 +1907,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 380px;
   }
   #about .lead {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -2705,7 +2707,7 @@ form .form-field label {
   font-size: 1.8rem;
   line-height: 1.4;
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 0rem;
   right: 0;
   text-transform: uppercase;
   letter-spacing: .05rem;
@@ -2761,19 +2763,19 @@ input[type="email"]:focus {
 
 textarea {
   min-height: 10rem;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
 }
 textarea:focus {
   color: #FFFFFF;
 }
 
 button.submitform {
-  font-size: 1rem;
+  font-size: 1.3rem;
   display: block;
   letter-spacing: .2rem;
-  height: 3rem;
-  line-height: 3rem;
-  padding: 0 1.5rem;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 2rem;
   width: 100%;
   background: #f9a828;
   color: #000000;
@@ -2935,7 +2937,7 @@ footer {
   padding: 0;
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.4);
-  background-color: #000000;
+  background: linear-gradient(#bebebe, #000000);
 }
 footer a, footer a:visited {
   color: #FFFFFF;
@@ -2949,8 +2951,8 @@ footer .row {
 footer h4.h05 {
   color: #FFFFFF;
   position: relative;
-  padding-bottom: 4.2rem;
-  margin-bottom: 3.6rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 footer h4.h05::after {
   display: block;
@@ -2971,8 +2973,8 @@ footer h4.h05::after {
   font-family: 'Ubuntu';
   font-weight: 350;
   font-style: normal;
-  font-size: 1.8rem;
-  background-color: #000000;
+  font-size: 1.5rem;
+  background: linear-gradient(#777777, #000000);
 }
 .footer-main ul {
   font-size: 1.5rem;
@@ -2997,7 +2999,7 @@ footer h4.h05::after {
 }
 .footer-main #mc-form input[type="email"] {
   height: 6rem;
-  padding: 1.5rem 8rem 1.5rem 2rem;
+  padding: 1.5rem 5rem 1.5rem 2rem;
   margin-bottom: 1.5rem;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
@@ -3067,7 +3069,7 @@ footer h4.h05::after {
   width: 60px;
   line-height: 63px;
   text-align: center;
-  background-color: #000000;
+  background-color: #313131;
   color: #888;
   text-align: center;
   text-transform: uppercase;
@@ -3082,11 +3084,11 @@ footer h4.h05::after {
   line-height: inherit;
 }
 #go-top a:visited {
-  background: #000000;
-  color: #888;
+  background: #313131;
+  color: rgb(131, 130, 130);
 }
 #go-top a:hover, #go-top a:focus {
-  background: #000000;
+  background: #313131;
   color: #FFFFFF;
 }
 
@@ -3105,7 +3107,7 @@ footer h4.h05::after {
   width: 63px;
   line-height: 60px;
   text-align: center;
-  background-color: #000000;
+  background-color: #313131;
   color: #888;
   text-align: center;
   text-transform: uppercase;
@@ -3120,7 +3122,7 @@ footer h4.h05::after {
   line-height: inherit;
 }
 #go-menu a:visited {
-  background: #303030;
+  background: #313131;
   color: #888;
 }
 #go-menu a:hover, #go-top a:focus {
@@ -3155,8 +3157,8 @@ footer h4.h05::after {
   }
 
   footer h4.h05 {
-    padding-bottom: 3rem;
-    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 
   footer h4.h05::after {
